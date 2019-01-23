@@ -4,12 +4,14 @@
     </script>
  <script>
         var myCookie = Cookies.get("room");
-        if (myCookie == one) {
-            Cookies.set('room', 'two');
+
+        if (myCookie != 'one') {
+            window.location.replace("../../")
         }
         else {
-            alert("You have already visited this room!")
+            Cookies.set('room', 'two');
         }
+
     </script>
  <style type="text/css" media="screen">
 body {
