@@ -8,8 +8,8 @@
  <script>
         var myCookie = Cookies.get("room");
 
-        if (myCookie == one) {
-            Cookies.set('room', 'null');
+        if (myCookie == null) {
+            Cookies.set('room', 'one');
         }
         else {
             alert("You have already visited this room!")
