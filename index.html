@@ -3,6 +3,21 @@
 <head>
   <meta charset=utf-8 />
   <title>puzzel uwu</title>
+   <link rel="stylesheet" type="text/css" href="../../css/puzzleSkin.css">
+    <script src="../../js/js.cookie.js">
+    </script>
+
+    <script>
+        var myCookie = Cookies.get("room");
+
+        if (myCookie == null) {
+            Cookies.set('room', 'one');
+        }
+        else {
+            alert("You have already visited this room!")
+        }
+    </script>
+
 </head>
 <body>
   <center><br><br><br><br><br><br><br><p><b><a href="werp.html">[A]</a> x <a href="rood.html">[B]</a> + <a href="gelezen.html">[C]</a></b></p></center>
