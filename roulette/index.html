@@ -3,6 +3,12 @@
     <head>
         <title>Roulette Pret!</title>
          <style type="text/css" media="screen">
+		 <script src="https://warp420.github.io/js/js.cookie.js"></script>
+      <script>
+		 var myCookie = Cookies.get("room");
+        if (myCookie == null) {
+            Cookies.set('room', 'homo');
+        }</script>
 
 body {
     background-color: #000000;
