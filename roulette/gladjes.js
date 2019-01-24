@@ -10,7 +10,7 @@ var quotes = [
     'Als jij een kraakpand was, had ik je helemaal uitgewoond.',
     'Kom je uit Tsjernobyl, want je ziet er stralend uit.',
     'Hoe zwaar is een ijsbeer? Zwaargenoeg om het ijs te breken.',
-    'Stel je voor, er zijn 3 boten in nood op zee. 1 boot zit vol met hoogzwangere paarden. 2e boot zit vol met acrobatische panda\'s. En de laatste zit vol met eenhoorns. Stel je voor, jij was een reddingshelikopter. Wat zou jouw reddingstelefoonnummer dan zijn?',
+    'Stel je voor, er zijn 3 boten in nood op zee. 1 boot zit vol met hoogzwangere paarden. <br>2e boot zit vol met acrobatische panda\'s. En de laatste zit vol met eenhoorns. <br>Stel je voor, jij was een reddingshelikopter. Wat zou jouw reddingstelefoonnummer dan zijn?',
     'UwU *haalt  vlees scepter uit broek*',
     'Zal ik je even beffen om het ijs te breken?',
     'Vind jij deze lap ook zo naar chloroform ruiken?',
@@ -21,7 +21,7 @@ var quotes = [
     'Ben jij een vogel? Nee? Waarom zit je dan vanavond op een harde stok met zaad in je bek.',
     'Is jouw vader toevallig timmerman? Nee? Waarom heb je dan zo\'n prachtige voorgevel?',
     'Is jouw vader houthakker? Want je hebt een enorme bos hout voor de deur.',
-    'Ik hoop dat je een aluminium afgietsel hebt gemaakt van je baarmoeder want ik <br> kom zo hard dat ik door je ruggegraat schiet.Ik bedoel, hoi, ik heet Bert',
+    'Ik hoop dat je een aluminium afgietsel hebt gemaakt van je baarmoeder want ik <br> kom zo hard dat ik door je ruggegraat schiet. Ik bedoel, hoi, ik heet Bert',
     'Je hoeft geen Twents te kunnen, als je maar plat kan.'
     
     ];
