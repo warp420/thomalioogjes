@@ -18,8 +18,8 @@ var quotes = [
     'Hoi, ik hoop stiekem dat jouw eisen lager zijn dan de mijne...',
     'Is het de of het magazijn? [antwoord] Nee, jij mag er zijn!',
    'Als jij een frikandel was, was jij een frikandel speciaal.',
-    'Ben jij een vogel? "Nee" Waarom zit je dan vanavond op een harde stok met zaad in je bek.',
-    'Is jouw vader toevallig timmerman? "Nee" Waarom heb je dan zo\'n prachtige voorgevel?',
+    'Ben jij een vogel? Nee? Waarom zit je dan vanavond op een harde stok met zaad in je bek.',
+    'Is jouw vader toevallig timmerman? Nee? Waarom heb je dan zo\'n prachtige voorgevel?',
     'Is jouw vader houthakker? Want je hebt een enorme bos hout voor de deur.',
     'Ik hoop dat je een aluminium afgietsel hebt gemaakt van je baarmoeder want ik <br> kom zo hard dat ik door je ruggegraat schiet.Ik bedoel, hoi, ik heet Bert',
     'Je hoeft geen Twents te kunnen, als je maar plat kan.'
