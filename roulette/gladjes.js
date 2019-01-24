@@ -22,7 +22,7 @@ var quotes = [
     'Is jouw vader toevallig timmerman? "Nee" Waarom heb je dan zo\'n prachtige voorgevel?',
     'Is jouw vader houthakker? Want je hebt een enorme bos hout voor de deur.',
     'Ik hoop dat je een aluminium afgietsel hebt gemaakt van je baarmoeder want ik <br> kom zo hard dat ik door je ruggegraat schiet.Ik bedoel, hoi, ik heet Bert',
-    'Je hoeft geen Twents te kunnen, als je maar plat kan.
+    'Je hoeft geen Twents te kunnen, als je maar plat kan.'
     
     ];
 
