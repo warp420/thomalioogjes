@@ -5,11 +5,11 @@
       <script>
          var myCookie = Cookies.get("room");
          
-         if (myCookie != 'one') {
+         if (myCookie < '1') {
              window.location.replace("../../")
          }
          else {
-             Cookies.set('room', 'two');
+             Cookies.set('room', '2');
          }
          
       </script>
