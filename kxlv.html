@@ -4,11 +4,11 @@
       <script src="/js/js.cookie.js"></script>
       <script>
          var myCookie = Cookies.get("room");
-         if (myCookie != 'two') {
+         if (myCookie < '2') {
              window.location.replace("../../")
          }
          else {
-             Cookies.set('room', 'three');
+             Cookies.set('room', '3');
          }
       </script>
       <style type="text/css" media="screen">
