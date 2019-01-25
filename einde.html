@@ -4,14 +4,15 @@
   <script src="/js/js.cookie.js">
     </script>
  <script>
-        var myCookie = Cookies.get("room");
-        if (myCookie != 'four') {
-            window.location.replace("../../")
-        }
-        else {
-            Cookies.set('room', 'five');
-        }
-    </script>
+         var myCookie = Cookies.get("room");
+         
+         if (myCookie >= '4') {
+              Cookies.set('room', '5')
+         }
+         else {
+              window.location.replace("../../");
+         }
+  </script>
 <div class="linewrap">
   <div class="line"></div>
   <div class="line"></div>
