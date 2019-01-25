@@ -3,14 +3,14 @@
   <script src="/js/js.cookie.js">
     </script>
  <script>
-        var myCookie = Cookies.get("room");
-        if (myCookie < '3') {
-            window.location.replace("../../")
-        }
-        else {
-            Cookies.set('room', '4');
-        }
-    </script>
+         var myCookie = Cookies.get("room");
+         
+         if (myCookie >= '3') {
+              Cookies.set('room', '4')
+         }
+         else {
+              window.location.replace("../../");
+         }
  <style type="text/css" media="screen">
 body {
     background-color: #ffff;
