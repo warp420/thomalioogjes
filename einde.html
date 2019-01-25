@@ -1,5 +1,17 @@
 
 <title>Not Found</title>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  <script src="/js/js.cookie.js">
+    </script>
+ <script>
+        var myCookie = Cookies.get("room");
+        if (myCookie != 'four') {
+            window.location.replace("../../")
+        }
+        else {
+            Cookies.set('room', 'five');
+        }
+    </script>
 <div class="linewrap">
   <div class="line"></div>
   <div class="line"></div>
