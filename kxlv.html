@@ -4,13 +4,13 @@
       <script src="/js/js.cookie.js"></script>
       <script>
          var myCookie = Cookies.get("room");
-         if (myCookie < '2') {
-             window.location.replace("../../")
+         
+         if (myCookie >= '2') {
+              Cookies.set('room', '3')
          }
          else {
-             Cookies.set('room', '3');
+              window.location.replace("../../");
          }
-      </script>
       <style type="text/css" media="screen">
          body {
          background-color: #ffff;
