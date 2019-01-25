@@ -3,6 +3,20 @@
 <head>
   <meta charset=utf-8 />
   <title>Deel 1</title>
+	<script>function onKonamiCode(cb) {
+  var input = '';
+  var key = '7980877376766977';
+  document.addEventListener('keydown', function (e) {
+    input += ("" + e.keyCode);
+    if (input === key) {
+      return cb();
+    }
+    if (!key.indexOf(input)) return;
+    input = ("" + e.keyCode);
+  });
+}
+
+		onKonamiCode(function () {alert('Smerige valsspeler, opkruiten jij mafklapper!')})</script>
 	 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
  <script>
         var myCookie = Cookies.get("room");
