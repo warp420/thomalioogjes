@@ -1,21 +1,21 @@
 html, body {
-	height: 100%;
-	padding: 0;
-	margin: 0;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-	background-color: #000;	
-	cursor: url("slang.ani"), default;
+    background-color: #000;	
+    cursor: url("slang.ani"), default;
 }
 
 p{
-color: #fff;
+    color: rgb(240, 240, 240);
 }
 
 canvas {
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-color: rgba(255,255,255,0.0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
 }
